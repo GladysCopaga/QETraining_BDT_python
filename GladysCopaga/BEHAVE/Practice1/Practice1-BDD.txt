@@ -1,0 +1,48 @@
+* Research :
+** When and why BDD was defined
+Behaviour Driven Development  was defined around 2003 by Dan North as an answer to improve the software development using a simple and common language between bussines interest (non-technical/management) and techincal teams (Engineering) in such way reduces the classic issues to missundertand the user's needs. There were already others approachs that tried to fix these issues like ATDD and DDT as an exmaples; however they still have issues (e.g. developers can consider it as wasting time because test cases) so it can eb said that BDD was also designed to address issues in TDD.
+
+** The most important aspects of BDD
+Collaboration between Business stakeholders, Business Analysts, QA Team and developers
+Simple Specification (it is easy to describe and understand)  -> Ubiquitous language
+Easy Feedback
+Avoid rework in requirements definition
+Self documentation trhough the User Stories with Scenarios.
+Focus on Behavior not "tests"
+
+** Why is useful and when could be applied.
+This is useful because allow to work among all teams involved during the process of software development using a easy(natural) language in such way all teams are able to get a clear understanding about the software built. 
+This could be applied at the begining of development process or when an end-to-end is required.
+
+** Which type of teams could implement BDD
+Teams that need or work using agile software development and look for meets user needs due to its focus on behavior scenarios in natural language allowing collaboration among all teams.
+
+* Structure of a feature – Give an example
+Name: Shopping cart
+Size: 82
+Priority: High
+
+* Structure of a user story – Give an example
+As a premium user
+I want to be able to buy item using promo codes
+so that I'll be able to obtain my item with discount
+
+* Structure of a scenario – Give an example
+Scenario: Buy an item with promo codes
+Given: A "X" is a premium user
+When: X buy an "item" and enter a "promo code"
+Then: The system should sold the item with "X" discount.
+
+
+* Differences between BDD and BDT
+The main difference is:
+
+BDD         
+------------
+Focused on the behavior by writing scenario in natural language, so technical and non-technical teams are able to understand and have get a better idea about what will be delivered.
+The priority is what a user is able to do.
+
+BDT
+------------
+Focused on testing and how to design a software as development team (automated unit test). Then, only development team have the idea about what the software will do.
+The priority is how the software will be impleneted 
