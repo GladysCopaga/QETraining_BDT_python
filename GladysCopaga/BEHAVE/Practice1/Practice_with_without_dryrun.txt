@@ -1,0 +1,208 @@
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave>cd features
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+0 features passed, 0 failed, 0 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:1
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  In fact, everything until the next Gherkin keyword is included in the descript
+ion.
+  The text immediately following on the same line as the Feature keyword is the
+  name of the feature, and the remaining lines are its description.
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:1
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario
+  In fact, everything until the next Gherkin keyword is included in the descript
+ion.
+  The text immediately following on the same line as the Feature keyword is the
+  name of the feature, and the remaining lines are its description.
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:1
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario:   # test.feature:4
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:1
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario:   # test.feature:4
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+ParseError: Failed to parse "C:\BDDpython\QETraining_BDT_python\GladysCopaga\Beh
+ave\TestBehave\features\test.feature":
+Parser failure in state init, at line 1: 'Scenario:'
+REASON: Scenario may not occur before Feature.
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario:   # test.feature:5
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+ParseError: Failed to parse "C:\BDDpython\QETraining_BDT_python\GladysCopaga\Beh
+ave\TestBehave\features\test.feature":
+Parser failure in state init, at line 2: 'Feature This is the feature title'
+REASON: No feature found.
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario
+  In fact, everything until the next Gherkin keyword is included in the descript
+ion.
+  The text immediately following on the same line as the Feature keyword is the
+  Step:
+  name of the feature, and the remaining lines are its description.
+0 features passed, 0 failed, 1 skipped
+0 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario:   # test.feature:5
+
+1 feature passed, 0 failed, 0 skipped
+1 scenario passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario: a  # test.feature:5
+
+  Scenario: b  # test.feature:6
+
+  Scenario:   # test.feature:7
+
+1 feature passed, 0 failed, 0 skipped
+3 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario: a  # test.feature:5
+
+  Scenario: b  # test.feature:6
+
+  Scenario:   # test.feature:7
+
+1 feature passed, 0 failed, 0 skipped
+3 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario a: Given some initial context (the givens)
+  When an event occurs
+  then ensure some outcomes
+  Scenario: b  # test.feature:9
+
+  Scenario:   # test.feature:10
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario a: Given some initial context (the givens)
+  When an event occurs
+  then ensure some outcomes
+  blah blah blah
+  Scenario: b  # test.feature:10
+
+  Scenario:   # test.feature:11
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>behav
+e test.feature --dry-run
+Feature: This is the feature title # test.feature:2
+  This is the description of the feature, which can span multiple lines.
+  You can even include empty lines, like this one:
+  Scenario a: Given some initial context (the givens)
+  When an event occurs
+  Then ensure some outcomes
+  blah blah blah
+  Scenario: b  # test.feature:11
+
+  Scenario:   # test.feature:12
+
+1 feature passed, 0 failed, 0 skipped
+2 scenarios passed, 0 failed, 0 skipped
+0 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.000s
+
+C:\BDDpython\QETraining_BDT_python\GladysCopaga\Behave\TestBehave\features>
+
+----------------------CONCLUSION----------------------------------
+Initially There were no differences found wiht and without dry-run. so after no difference was found, I stated playing by:
+Adding more than 1 feature
+Adding more than 1 Scenario
+NOTE: noticed that if we write name before the colon like "Scenario Name:", the Scenairo is not recognized, therefore the results vary:
